@@ -7,15 +7,13 @@ export default function CoverPage({ onStart }) {
         <span className="cover__cloud cover__cloud--c" />
       </div>
       <div className="cover__inner">
-        <h1 className="cover__title">
-          <span>ترتيب الأحداث</span>
-          <span>التاريخية</span>
-        </h1>
-        <p className="cover__grade">الصف الثاني عشر - الفصل الأول -</p>
-        <p className="cover__year"><bdi dir="ltr">2027/2026</bdi></p>
+        <h1 className="cover__title">الأسئلة الموضوعية</h1>
+        <p className="cover__grade">الصف الثاني عشر</p>
+        <p className="cover__term">الفصل الأول 2026م / 2027م</p>
+        <p className="cover__subject">مادة التاريخ</p>
         <div className="cover__meta">
-          <p>إعداد: المعلمة وضحه الهاجري</p>
-          <p>مدرسة: معيذر الثانوية للبنات</p>
+          <p>إعداد المعلمة وضحه الهاجري</p>
+          <p>مدرسة معيذر الثانوية للبنات</p>
         </div>
         <button type="button" className="cover__btn" data-enter="1" onClick={onStart}>
           ابدأ

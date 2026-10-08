@@ -126,16 +126,18 @@ button:disabled { cursor: not-allowed; }
   overflow-wrap: anywhere;
 }
 .cover__grade {
+  font-size: clamp(1.05rem, 3.4vw, 1.4rem);
+  font-weight: 700;
+  opacity: 0.98;
+}
+.cover__term {
   font-size: clamp(0.95rem, 3.2vw, 1.22rem);
   font-weight: 500;
   opacity: 0.95;
 }
-.cover__year {
-  font-size: clamp(1.7rem, 6.5vw, 3.1rem);
+.cover__subject {
+  font-size: clamp(1.05rem, 3.4vw, 1.35rem);
   font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
-  text-shadow: 0 8px 18px rgba(28, 72, 94, 0.18);
 }
 .cover__meta {
   display: grid;
@@ -626,7 +628,6 @@ button:disabled { cursor: not-allowed; }
   .cover { place-items: center; }
   .cover__inner { gap: 8px; }
   .cover__title { font-size: clamp(1.4rem, 4.2vw, 2.2rem); }
-  .cover__year { font-size: clamp(1.8rem, 5vw, 2.6rem); }
   .cover__cloud--c { display: none; }
 }
 
