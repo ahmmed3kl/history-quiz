@@ -16,6 +16,10 @@ export default function HomePage({ onStart }) {
         <p className="hero__meta">
           {allQuestions.length} سؤالًا متاحًا • {lessonCount} دروس
         </p>
+        <div className="hero__credit">
+          <p>إعداد المعلمة وضحه الهاجري</p>
+          <p>مدرسة معيذر الثانوية للبنات</p>
+        </div>
         <button
           type="button"
           className="btn btn--primary btn--lg hero__cta"

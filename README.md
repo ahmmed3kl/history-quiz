@@ -25,4 +25,4 @@ npm test
 
 ## البيانات
 
-الأسئلة في `src/data/history_questions.js` ولا تُعدَّل. يستبعد التطبيق تلقائيًا أي سؤال فيه `missingFromSource: true`، فيكون عدد الأسئلة المتاحة 233 سؤالًا.
+الأسئلة في `src/data/history_questions.js`. يستبعد التطبيق تلقائيًا أي سؤال فيه `missingFromSource: true`، فيكون عدد الأسئلة المتاحة 228 سؤالًا.

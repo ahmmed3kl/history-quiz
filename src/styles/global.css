@@ -226,6 +226,13 @@ button:disabled { cursor: not-allowed; }
   color: var(--muted);
   font-size: 1.05rem;
 }
+.hero__credit {
+  display: grid;
+  gap: 2px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
 .hero__cta {
   width: auto;
   min-width: min(100%, 320px);
@@ -499,10 +506,17 @@ button:disabled { cursor: not-allowed; }
   padding: 16px 20px calc(16px + env(safe-area-inset-bottom));
   background: linear-gradient(to top, var(--bg) 62%, rgba(238, 246, 250, 0));
 }
-.dock .btn {
-  display: flex;
+.dock__row {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 10px;
   width: min(100%, 1000px);
   margin: 0 auto;
+}
+.dock .btn {
+  display: flex;
+  width: 100%;
+  margin: 0;
 }
 
 .result {
@@ -614,6 +628,9 @@ button:disabled { cursor: not-allowed; }
   .cover__btn { width: min(100%, 280px); min-height: 54px; }
   .hero { padding: 22px 18px 24px; border-radius: 22px; }
   .hero__cta { width: 100%; min-width: 0; }
+  .dock__row { grid-template-columns: 1fr; }
+  .dock__row [data-prev] { order: 2; }
+  .dock__row [data-next] { order: 1; }
   .lesson { min-height: 120px; gap: 12px; }
   .lesson__num { width: 42px; font-size: 2rem; }
   .option { min-height: 76px; }

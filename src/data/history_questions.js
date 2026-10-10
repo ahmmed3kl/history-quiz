@@ -2011,7 +2011,7 @@ export const historyQuestions = {
         {
           "id": 5,
           "title": "حركات التحرر الوطني في شمال أفريقيا والمغرب العربي",
-          "questionCount": 60,
+          "questionCount": 55,
           "questions": [
             {
               "id": 1,
@@ -2091,17 +2091,6 @@ export const historyQuestions = {
               "correctAnswer": 1
             },
             {
-              "id": 8,
-              "question": "تجسدت جميع مظاهر الوحدة الوطنية المصرية بسبب مشاركة جميع الطوائف الشعبية خلال ثورة:",
-              "options": [
-                "1881م",
-                "1919م",
-                "1936م",
-                "1952م"
-              ],
-              "correctAnswer": 1
-            },
-            {
               "id": 9,
               "question": "قامت بريطانيا بمحاولة تهدئة ثورة 1919م في مصر من خلال إرسال لجنة:",
               "options": [
@@ -2168,17 +2157,6 @@ export const historyQuestions = {
               "correctAnswer": 1
             },
             {
-              "id": 15,
-              "question": "أقرت بريطانيا في معاهدة 1936م عودة الحكم الثنائي للسودان حسب اتفاقية عام:",
-              "options": [
-                "1881م",
-                "1889م",
-                "1902م",
-                "1899م"
-              ],
-              "correctAnswer": 2
-            },
-            {
               "id": 16,
               "question": "قامت المظاهرات في مصر ضد الملك فاروق الأول 1942م دعمًا عن الملك من:",
               "options": [
@@ -2201,17 +2179,6 @@ export const historyQuestions = {
               "correctAnswer": 3
             },
             {
-              "id": 18,
-              "question": "ألغي مصطفى النحاس معاهدة 1936م بعد فشل المفاوضات مع بريطانيا عام:",
-              "options": [
-                "1950م",
-                "1951م",
-                "1952م",
-                "1953م"
-              ],
-              "correctAnswer": 1
-            },
-            {
               "id": 19,
               "question": "التنظيم المسؤول عن ثورة 23 يوليو 1952م في مصر هو:",
               "options": [
@@ -2232,17 +2199,6 @@ export const historyQuestions = {
                 "سعد زغلول ومحمد فريد"
               ],
               "correctAnswer": 0
-            },
-            {
-              "id": 21,
-              "question": "تم جلاء البريطانيين الكامل من مصر عام:",
-              "options": [
-                "1952م",
-                "1953م",
-                "1954م",
-                "1956م"
-              ],
-              "correctAnswer": 3
             },
             {
               "id": 22,

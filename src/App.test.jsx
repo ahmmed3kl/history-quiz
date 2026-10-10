@@ -35,10 +35,10 @@ function playThrough(questions) {
 }
 
 describe('بنك أسئلة التاريخ', () => {
-  it('الرئيسية: خمسة دروس و233 سؤالًا مع استبعاد الناقص', () => {
+  it('الرئيسية: خمسة دروس و228 سؤالًا مع استبعاد الناقص', () => {
     openHome();
     expect(document.querySelectorAll('[data-lesson]').length).toBe(5);
-    expect($('.hero__meta').textContent).toContain('233');
+    expect($('.hero__meta').textContent).toContain('228');
     expect($('[data-lesson="1"]').textContent).toContain('25 سؤالًا متاحًا');
     cleanup();
   });
@@ -53,16 +53,16 @@ describe('بنك أسئلة التاريخ', () => {
     cleanup();
   });
 
-  it('الاختبار الشامل 233 سؤالًا، والإعادة والعودة تعملان', () => {
+  it('الاختبار الشامل 228 سؤالًا، والإعادة والعودة تعملان', () => {
     openHome();
     fireEvent.click($('[data-all]'));
     const qs = lessons.flatMap(complete);
-    expect(qs.length).toBe(233);
+    expect(qs.length).toBe(228);
     const expected = playThrough(qs);
-    expect($('[data-score]').textContent).toBe(`${expected} / 233`);
-    expect(document.querySelectorAll('.review__item').length).toBe(233 - expected);
+    expect($('[data-score]').textContent).toBe(`${expected} / 228`);
+    expect(document.querySelectorAll('.review__item').length).toBe(228 - expected);
     fireEvent.click($('[data-retry]'));
-    expect($('[data-counter]').textContent).toBe('السؤال 1 من 233');
+    expect($('[data-counter]').textContent).toBe('السؤال 1 من 228');
     fireEvent.click($('[data-exit]'));
     expect(document.querySelectorAll('[data-lesson]').length).toBe(5);
     cleanup();
